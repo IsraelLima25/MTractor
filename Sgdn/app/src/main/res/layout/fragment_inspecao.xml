@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.InspecaoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Spinner
+        android:id="@+id/spnMaquinasInspecao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp" />
+
+    <Spinner
+        android:id="@+id/spnComponentesInspecao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <EditText
+        android:id="@+id/txtQtdHorasTrabalhadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Digite o tempo em horas trabalhadas"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewHorastrabalhadasDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="20dp"
+        android:text="Horas Trabalhadas Dia"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/viewhorasTrabalhadasDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarhorasTrabalhadasDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp" />
+
+    <TextView
+        android:id="@+id/textViewDiasTrabalhadosSemana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="20dp"
+        android:text="Dias Trabalhados Semana"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/viewDiasTrabalhadosSemana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarDiasTrabalhadosSemana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp" />
+
+
+    <!--
+   <EditText
+       android:id="@+id/txtQtdHorasTrabalhadasDia"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:ems="10"
+       android:hint="Digite o tempo em horas dia"
+       android:inputType="number" />
+
+   <EditText
+       android:id="@+id/txtQtdDiasSemana"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:ems="10"
+       android:hint="Digite a quantidade dia semana"
+       android:inputType="number" />
+
+       -->
+
+    <EditText
+        android:id="@+id/txtAlturaMinimaDesgasteTrabalhado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Digite a altura da area de desgaste"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtLarguraMinimaDesgasteTrabalhado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Digite a largura da area de desgaste"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtCelularCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Digite o celular para notificações"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Digite o nome do cliente"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Digite a cidade do Cliente"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnRegistrarInspecao"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/theme"
+        android:text="Concluir"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

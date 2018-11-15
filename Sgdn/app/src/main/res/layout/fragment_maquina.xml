@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.MaquinaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btnAdicionarMaquina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/theme"
+        android:text="+ Nova Máquina"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tituloTela"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Lista de Máquinas"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/listViewMaquinas"
+        android:layout_width="wrap_content"
+        android:layout_height="328dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>

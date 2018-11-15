@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_splash_screen">#ffffff</color>
+    <color name="titulo_cor">#ffff10</color>
+    <color name="theme">#facc2e</color>
+    <color name="titulo_botao_login">#ffffff</color>
+    <color name="start_color">#F7D358</color>
+    <color name="center_color">#facc2e</color>
+    <color name="end_color">#ffbf00</color>
+    <color name="background_list_color"></color>
+
+</resources>
